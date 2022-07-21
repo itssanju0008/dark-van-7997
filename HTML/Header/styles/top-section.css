@@ -1,0 +1,152 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+#container-1{
+    width:90%;
+    height: auto;
+    margin:auto
+}
+#top-image{
+    width:100%;
+    height:auto;
+    margin-bottom: 70px;
+}
+#top-image>img{
+    width:100%;
+    margin-bottom: 50px;
+}
+#mid-images{
+    display: flex;
+    width:100%;
+    height:auto;
+    text-align: center;
+    justify-content: space-around;
+}
+button{
+    background-color: black;
+    color:white;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+h1{
+    width:60%;
+    text-align: center;
+    margin: auto;
+}
+#mid-images-2>div{
+  margin-bottom:115px;
+}
+#products-cat{
+    display: flex;
+    gap:20px;
+}
+#products-cat>div>img{
+    width:100%;
+    margin: auto;
+}
+#products{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#footer-edit{
+    width:100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#footer-edit h1{
+    margin-top: 30px;
+}
+h1{
+    font-size: 15px;
+}
+#mid-images h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+#footer-edit-1{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin-left: -10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+li{
+    font-size: 12px;
+}
+#apps{
+    text-align: center;
+}
+dd{
+    color: #757575;
+}
+#footer-menu{
+    display: flex;
+}
+#footer-menu>div{
+    width:auto;
+    padding: 30px;
+}
+#footer-menu div>h1{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: -10px;
+}
+#footer-menu>div>h1:nth-child(3){
+    margin-left: 10px;
+}
+#footer-menu ul{
+    list-style: none;
+    color:#757575;
+    line-height: 25px;
+}
+#footer-menu ul li a{
+    text-decoration: none;
+    color: #757575;
+}
+p{
+    font-size: 12px;
+}
+h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#footer-menu input{
+    border:1px solid #757575;
+    height: 20px;
+    padding-right: 40px;
+}
+#footer-menu button{
+    background-color: #757575;
+    padding: 7px 30px 7px 30px;
+    border: 0px;
+    margin-left: -10px;
+}
+#span-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#p1,#p2{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-newsletter{
+    margin-bottom: 10px;
+}
+#footer-newsletter h1{
+    width:110%
+}
+#footer-app h1{
+    margin-top: 30px;
+}
+#products>h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
