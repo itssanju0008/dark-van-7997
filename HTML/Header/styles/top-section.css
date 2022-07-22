@@ -120,7 +120,7 @@ h4{
 #footer-menu input{
     border:1px solid #757575;
     height: 20px;
-    padding-right: 40px;
+    padding: 6px 40px 6px 0px;
 }
 #footer-menu button{
     background-color: #757575;
