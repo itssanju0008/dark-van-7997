@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #account{
+            width:90%;
+            height:100vh;
+            margin:auto;
+            display: flex;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:#757575
+        }
+        #account>div{
+            width:40%;
+            height: 100%;
+            margin: auto;
+        }
+        ul{
+            list-style: none;
+        }
+        #gender{
+           display: inline-flex;
+           list-style: none;
+           gap:80px
+        }
+        #gender input{
+            border-radius: 50%;
+        }
+        #detail{
+            list-style: none;
+            margin-left: 0px;
+        }
+        #detail li{
+            margin: 10px 0px 10px 0px;
+        }
+        #detail li:nth-child(1)>select{
+            width:440px;
+            height: 43px;
+        }
+        #form #detail input{
+            width:432px;
+            height:43px
+        }
+        #form{
+            margin-left: -40px;
+        }
+        #form input{
+            margin-left: -40px;
+        }
+        #form select{
+            margin-left: -40px;
+        }
+        h3{
+            margin-left: -40px;
+        }
+        #account button{
+            border:none;
+            padding: 7px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="account">
+    <div>
+        <h3>CREATE ACCOUNT</h3>
+        <div id="form">
+            <p>Please enter the following information to create your account.</p>
+            <ul id="gender">
+                <li><input type="checkbox" value="mrs">Ms.</li>
+                <li><input type="checkbox" value="mrs">Mrs.</li>
+                <li><input type="checkbox" value="mrs">Mr.</li>
+                
+            </ul>
+            <ul id="detail">
+                <li><select name="acdemy" id="" >
+                    <option value="dr">academic title</option>
+                    <option value="dr">Dr.</option>
+                    <option value="dr">Prof.</option>
+                    <option value="dr">Prof. Dr.</option>
+                </select></li>
+                <li><input type="text" placeholder="first name *"></li>
+                <li><input type="text" placeholder="last name *"></li>
+                <li><input type="text" placeholder="email address *"></li>
+                <li><input type="password" placeholder="password *"></li>
+                <li><input type="password" placeholder="confirm password *"></li>
+            </ul>
+            <ul>
+                <li><input type="checkbox" value="mrs">From now on I will receive the Mytheresa Newsletter with selected fashion offers. If I do not wish to receive the newsletter, I can unsubscribe at any time free of charge at privacy@mytheresa.com.</li>
+            </ul>
+            <p> I agree that Mytheresa may insert analytical web beacons into the newsletter and create a personalized user profile based on my purchase and usage behavior, including sending a notification when I have placed something in the shopping cart. Further details can be found in our Privacy Policy, clause 5. I understand that I can revoke my consent at any time by emailing privacy@mytheresa.com</p>
+            <p>* required fields</p>
+            <button>REGISTER</button>
+        </div>
+    </div>
+    <hr/>
+    <div></div>
+    </div>
+</body>
+</html>
