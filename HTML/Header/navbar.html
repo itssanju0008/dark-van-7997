@@ -24,7 +24,7 @@
           </ul>
           <ul id="meta-list">
             <a href="#">Welcome to Mytheresa</a>
-            <a href="#">My Account</a>
+            <a href="#" id="link">My Account</a>
             <a href="#"
               >My Wishlist
               <img
@@ -36,7 +36,7 @@
           </ul>
         </div>
         <div id="logo-wrapper">
-          <img
+          <img id="mytheresa"
             src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918"
           />
           <div>
@@ -275,5 +275,14 @@
 
   </body>
   <script src="./Script/button.js"></script>
+  <script>
+    document.querySelector("#link").addEventListener("click",function(){
+      window.location.href="myaccount.html"
+    })
+  
+        document.querySelector("#mytheresa").addEventListener("click",function(){
+            window.location.href="navbar.html"
+        })
+  </script>
 
 </html>
