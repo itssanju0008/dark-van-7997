@@ -1,0 +1,72 @@
+#login-form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#login-form h1{
+    width:50%
+}
+#login-list li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+#login-form{
+    padding: 25px;
+    width:250px;
+    margin-left: -90px;
+    margin-top: 20px;
+    /* margin-left: auto; */
+    background:#757575;
+
+    text-align: center;
+    position: relative;
+    z-index: 1111;
+}
+
+#login-list{
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: block;
+}
+#login-list .button{
+   width:200px;
+   height:30px;
+   font-size: 20px;
+   border:none;
+   cursor: pointer;
+   background-color: black;
+   color: white;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#login-form{
+    display: none;
+}
+#link:hover > div{
+    display: block;
+}
+#link{
+    width:120px;
+}
+#login-form ul>li{
+   margin-left: 0px;
+   font-size: 15px;
+   list-style: none;
+}
+#login-list input{
+    width:190px;
+   height:25px;
+}
+#login-form ul>li p{
+    margin-left: 12px;
+}
+#welcome{
+    margin-left: -20px;
+}
+#login-list p+p{
+    color: #e7e7e7;
+}
+#login-list p{
+    width:90%
+}

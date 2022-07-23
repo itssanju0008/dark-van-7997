@@ -24,7 +24,7 @@
     text-align: center;
     justify-content: space-around;
 }
-button{
+#container-1 button{
     background-color: black;
     color:white;
     padding: 5px 10px 5px 10px;
@@ -32,7 +32,7 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
 }
-h1{
+#container-1 h1{
     width:60%;
     text-align: center;
     margin: auto;
@@ -60,7 +60,7 @@ h1{
 #footer-edit h1{
     margin-top: 30px;
 }
-h1{
+#container-1 h1{
     font-size: 15px;
 }
 #mid-images h1{
@@ -72,12 +72,12 @@ h1{
     display: flex;
     justify-content: space-around;
 }
-h2{
+#container-1 h2{
     margin-left: -10px;
     font-size: 15px;
     margin-bottom: 10px;
 }
-li{
+#container-1 li{
     font-size: 12px;
 }
 #apps{
@@ -110,10 +110,10 @@ dd{
     text-decoration: none;
     color: #757575;
 }
-p{
+#container-1 p{
     font-size: 12px;
 }
-h4{
+#container-1 h4{
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -143,6 +143,9 @@ h4{
 #footer-newsletter h1{
     width:110%
 }
+#footer-newsletter>input{
+    padding-left: 10px;
+}
 #footer-app h1{
     margin-top: 30px;
 }
@@ -150,6 +153,15 @@ h4{
     font-size: 26px;
     margin-bottom: 20px;
 }
+
 #mytheresa{
     cursor: pointer;
+
+#footer-menu h1{
+    margin-bottom: 20px;
+}
+#footer-menu dt{
+    margin-top: 5px;
+    margin-bottom: 6px;
+
 }
