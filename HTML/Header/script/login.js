@@ -1,15 +1,19 @@
-document.querySelector("#form").addEventListener("submit",login)
-let loginarr=JSON.parse(localStorage.getItem("signup"))
+document.querySelector("#loginaccount").addEventListener("submit",login)
+let loginarr=JSON.parse(localStorage.getItem("signup"))||[];
+console.log(loginarr)
+
 function login(){
     event.preventDefault();
     let loginobj={
-        email:document.querySelector("#email").value,
-        pass:document.querySelector("#password").value,
+        email:document.querySelector("#email1").value,
+        pass:document.querySelector("#password1").value,
     }
-    if(loginobj.email==""||loginobj.pass==""){
+    if(loginobj.email===""||loginobj.pass===""){
     alert("Fill up")
     }
     checkdata(loginobj)
+    
+    
 }
 function checkdata(el){
   for(let i=0;i<loginarr.length;i++){
@@ -20,5 +24,6 @@ function checkdata(el){
     }
   }
 }
+
 let loginn="passed"
 localStorage.setItem("pass",JSON.stringify(loginn))

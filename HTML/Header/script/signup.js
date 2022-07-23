@@ -1,4 +1,4 @@
-document.querySelector("form").addEventListener("submit",signup)
+document.querySelector("#createaccount").addEventListener("submit",signup)
 let signarr=[]
 function signup(){
     event.preventDefault();
@@ -20,7 +20,7 @@ function signup(){
     localStorage.setItem("signup",JSON.stringify(signarr));
     alert("Signup successfull")
     }
-    
+
     
     
 }

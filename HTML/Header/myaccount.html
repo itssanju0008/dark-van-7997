@@ -12,12 +12,7 @@
     <style>
         #account{
             width:90%;
-            /* height:100vh; */
-
-    <style>
-        #account{
-            width:90%;
-            height:100vh;
+            height:auto;
 
             margin:auto;
             display: flex;
@@ -28,12 +23,13 @@
             margin-top: 40px;
             margin-bottom: 50px;
 
-            color:#757575
+            color:#757575;
+            line-height: 10px;
 
         }
         #account>div{
             width:40%;
-            height: 100%;
+            /* height: auto; */
             margin: auto;
         }
         ul{
@@ -69,7 +65,7 @@
             margin-top: 10px;
             margin-left: -40px;
         }
-        #form{
+        #form,#loginaccount{
             margin-left: 0px;
             margin-top: 20px;
         }
@@ -79,20 +75,24 @@
         #form select{
             margin-left: 0px;
         }
-        #account>div:nth-child(1)>h3{
+        #account>div>h3{
+         color:black;
+         margin-left: -20px;
+        }
 
-        #form{
+        #form,#loginaccount{
             margin-left: -40px;
         }
-        #form input{
-            margin-left: -40px;
+        #loginaccount input{
+            margin-left: 20px;
         }
-        #form select{
-            margin-left: -40px;
+        #loginaccount select{
+            margin-left: 20px;
         }
+
         h3{
 
-            margin-left: -40px;
+            margin-left: 20px;
         }
         #account button{
             border:none;
@@ -110,7 +110,15 @@
         }
         #account p{
             margin-bottom: 20px;
+            margin-left: 20px;
 
+        }
+        #login>p{
+          margin-left: -20px;
+        }
+        #contain{
+          width:100%;
+          margin:auto
         }
     </style>
 </head>
@@ -191,7 +199,7 @@
         <h3>CREATE ACCOUNT</h3>
         <div id="form">
 
-           <form action="">
+           <form action="" id="createaccount">
 
             <p>Please enter the following information to create your account.</p>
             <ul id="gender">
@@ -204,9 +212,7 @@
 
                 <li><select name="acdemy" id="academic" >
 
-                <li><select name="acdemy" id="" >
-
-                    <option value="dr">academic title</option>
+                  <option value="dr">academic title</option>
                     <option value="dr">Dr.</option>
                     <option value="dr">Prof.</option>
                     <option value="dr">Prof. Dr.</option>
@@ -214,15 +220,9 @@
 
                 <li><input type="text"  id="fname" placeholder="first name *"></li>
                 <li><input type="text" id="lname" placeholder="last name *"></li>
-                <li><input type="text"id="email" placeholder="email address *"></li>
+                <li><input type="text" id="email" placeholder="email address *"></li>
                 <li><input type="password" id="password" placeholder="password *"></li>
                 <li><input type="password" id="cpassword" placeholder="confirm password *"></li>
-
-                <li><input type="text" placeholder="first name *"></li>
-                <li><input type="text" placeholder="last name *"></li>
-                <li><input type="text" placeholder="email address *"></li>
-                <li><input type="password" placeholder="password *"></li>
-                <li><input type="password" placeholder="confirm password *"></li>
 
             </ul>
             <ul>
@@ -232,31 +232,40 @@
             <p>* required fields</p>
 
             <input type="submit" value="REGISTER">
+          </form>
         </div>
     </div>
-    <hr/>
-</form>
+   
+
+<hr/>
     <div>
         <h3>ALREADY REGISTERED?</h3>
         <div id="login">
-            <form id="form" action="">
+            <form id="loginaccount" action="">
             <p>If you have an account with us, please log in</p>
             
             <ul>
-                <li><input type="text" id="email" placeholder="email address *"></li>
-                <li><input type="password" id="password" placeholder="password *"></li>
+                <li><input type="text" id="email1" placeholder="email address *"></li>
+                <li><input type="password" id="password1" placeholder="password *"></li>
             </ul>
             <p>* required fields</p>
             <p>Forgot Your Password?</p>
             <input type="submit" value="LOGIN">
+          </form>
             <p>At Mytheresa, we keep your information secure. As a result, it will be necessary for you to log in to your account before you are able to place an order or change the information on your account. You will be asked to log in to complete your order even if you have already been greeted on the website</p>
-        </form>
+        
         </div>
     </div>
     
     </div>
+    
+        </div>
+
+        </div>
+    </div>
     <hr/>
-    <div id="footer-menu">
+    <div id="contain">
+      <div id="footer-menu">
         <div>
           <h1>SERVICE AND SECURITY</h1>
           <dl>
@@ -348,22 +357,17 @@
             </div>
           </div>
         </div>
-        </div>
-    <script src="./Script/signup.js"></script>
+      </div>
+    </div>
+   
     <!-- <script src="./Script/login.js"></script> -->
     <script>
         document.querySelector("#mytheresa").addEventListener("click",function(){
             window.location.href="navbar.html"
-        })
+        });
+//     
     </script>
-
-
-            <button>REGISTER</button>
-        </div>
-    </div>
-    <hr/>
-    <div></div>
-    </div>
-
 </body>
+<script src="./Script/signup.js"></script>
+<script src="./Script/login.js"></script>
 </html>
