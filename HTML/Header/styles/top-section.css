@@ -153,10 +153,15 @@ dd{
     font-size: 26px;
     margin-bottom: 20px;
 }
+
+#mytheresa{
+    cursor: pointer;
+
 #footer-menu h1{
     margin-bottom: 20px;
 }
 #footer-menu dt{
     margin-top: 5px;
     margin-bottom: 6px;
+
 }

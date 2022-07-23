@@ -25,6 +25,18 @@
             <li><a href="#">LIFE</a></li>
           </ul>
           <ul id="meta-list">
+
+            <a href="#">Welcome to Mytheresa</a>
+            <a href="#" id="link">My Account</a>
+            <a href="#"
+              >My Wishlist
+              <img
+                id="wish"
+                src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/grunticon/svg/heart-grey.svg"
+              />
+            </a>
+            <a href="#">Malaysia | English</a>
+
             <li><a href="#">Welcome to Mytheresa</a></li>
             <li id="link">
               <a href="#">My Account</a>
@@ -57,10 +69,11 @@
               </a>
             </li>
             <li><a href="#">Malaysia | English</a></li>
+
           </ul>
         </div>
         <div id="logo-wrapper">
-          <img
+          <img id="mytheresa"
             src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918"
           />
           <div>
@@ -417,4 +430,17 @@
     </div>
   </body>
   <script src="./Script/button.js"></script>
+
+  <script>
+    document.querySelector("#link").addEventListener("click",function(){
+      window.location.href="myaccount.html"
+    })
+  
+        document.querySelector("#mytheresa").addEventListener("click",function(){
+            window.location.href="navbar.html"
+        })
+  </script>
+
+
+
 </html>
