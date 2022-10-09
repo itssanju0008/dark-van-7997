@@ -70,3 +70,23 @@
 #login-list p{
     width:90%
 }
+@media all and (min-width:320px) and (max-width:767px){
+    #footer-menu{
+        display: none;
+    }
+    input{
+        width:30%
+    }
+    #form #detail input{
+        width:309px;
+        height:43px
+    }
+    #detail li:nth-child(1)>select{
+        width:323px;
+        height: 43px;
+    }
+    svg{
+        width:40px;
+        height:60px
+    }
+}
